@@ -1,0 +1,29 @@
+#jb-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 940px; height: 912px; margin: 0px auto; padding: 21px;
+    border: 1px solid #d19696;
+  }
+  #jb-header {
+    flex: 1 0 898px;
+    height: 86px; padding: 20px;
+    border: 1px solid #1787e4;
+  }
+  #jb-sidebarL {
+    flex: 1 0 160px;
+    height: 230px; padding: 20px;
+    border: 1px solid #f1e887;
+  }
+  #jb-content {
+    flex: 2 0 450px;
+    height: 608px; padding: 20px; margin: 0px 21px 0px 21px;
+  }
+  #jb-sidebarR {
+    flex: 1 0 160px;
+    height: 230px; padding: 20px;
+    border: 1px solid #f1e887;
+  }
+  #jb-footer {
+    flex: 1 0 869px;
+    padding: 40px 0px 0px 20px; border: 1px solid #1787e4;
+  }
